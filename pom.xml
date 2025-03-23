@@ -53,6 +53,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.emanuel.itschool.Main</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
