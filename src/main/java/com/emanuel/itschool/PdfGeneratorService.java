@@ -27,7 +27,7 @@ public class PdfGeneratorService {
                 contentStream.beginText();
                 contentStream.setFont(customFont, 18);
                 contentStream.newLineAtOffset(100, 700); // Position text
-                contentStream.showText("Hello, Emanuel! This is a custom Helvetica Bold font.");
+                contentStream.showText("PdfGenratorTest,This is a test");
                 contentStream.endText();
             }
 
